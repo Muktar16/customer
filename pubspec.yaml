@@ -1,0 +1,103 @@
+name: customer
+description: "drive assists customer app"
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+
+#--------------------Packages--------------------#
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Utility packages
+
+  # Icons
+  iconsax: ^1.0.1
+  cupertino_icons: ^1.0.8
+
+  # State management
+  get: ^4.6.6
+
+  # Product specific packages
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+
+
+
+
+flutter:
+  uses-material-design: true
+
+
+  #-----------------LOCAL ASSETS--------------------#
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/logos/
+
+  #-----------------LCAL FONTS--------------------#
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Poppins-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Poppins-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Poppins-Thin.ttf
+          weight: 100
+            
+
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
