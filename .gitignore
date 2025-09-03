@@ -1,0 +1,74 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+flutter_*.png
+flutter_*.jpg
+
+# Generated files
+*.lock
+pubspec.lock
+
+# Obfuscation
+app.*.symbols
+
+# Coverage
+coverage/
+*.lcov
+
+# iOS/Xcode
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+ios/Runner/Generated.xcconfig
+ios/Flutter/ephemeral/
+*.xcworkspace
+*.xcuserstate
+*.xcscmblueprint
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# Android/Gradle
+.android/
+.gradle/
+**/gradle-wrapper.jar
+**/gradlew
+**/gradlew.bat
+local.properties
+GeneratedPluginRegistrant.java
+*.iml
+
+# VS Code / IntelliJ / Android Studio
+.vscode/
+.idea/
+*.iml
+
+# macOS
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/ephemeral/
+
+# Windows
+windows/flutter/ephemeral/
+windows/Flutter/GeneratedPluginRegistrant.*
+
+# Linux
+linux/flutter/ephemeral/
+linux/Flutter/GeneratedPluginRegistrant.*
+
+# Web
+web/.dart_tool/
+web/GeneratedPluginRegistrant.*
+
+# Symbolication / debugging
+*.symbols
+*.log
+
+# Misc
+.DS_Store
+*.tmp
+*.swp
