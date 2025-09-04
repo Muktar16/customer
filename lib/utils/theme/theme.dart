@@ -1,3 +1,4 @@
+import 'package:customer/utils/constants/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:customer/utils/theme/custom_themes/text_theme.dart';
 import 'package:customer/utils/theme/custom_themes/elevated_button_theme.dart';
@@ -13,12 +14,12 @@ class AppTheme {
 
   static final lightTheme = ThemeData(
     useMaterial3: true,
-    fontFamily: 'Poppins',
+    fontFamily: 'Outline',
     brightness: Brightness.light,
-    primaryColor: Colors.blue,
+    primaryColor: TColors.primary,
     textTheme: AppTextTheme.lightTextTheme,
     chipTheme: TChipTheme.lightChipTheme,
-    scaffoldBackgroundColor: Colors.white,
+    scaffoldBackgroundColor: TColors.light,
     appBarTheme: TAppBarTheme.lightAppBarTheme,
     checkboxTheme: TCheckboxTheme.lightCheckboxTheme,
     bottomSheetTheme: TBottomSheetTheme.lightBottomSheetTheme,
@@ -29,12 +30,12 @@ class AppTheme {
 
   static final darkTheme = ThemeData(
     useMaterial3: true,
-    fontFamily: 'Poppins',
+    fontFamily: 'Outline',
     brightness: Brightness.dark,
-    primaryColor: Colors.blue,
+    primaryColor: TColors.primary,
     textTheme: AppTextTheme.darkTextTheme,
     chipTheme: TChipTheme.darkChipTheme,
-    scaffoldBackgroundColor: Colors.black,
+    scaffoldBackgroundColor: TColors.dark,
     appBarTheme: TAppBarTheme.darkAppBarTheme,
     checkboxTheme: TCheckboxTheme.darkCheckboxTheme,
     bottomSheetTheme: TBottomSheetTheme.darkBottomSheetTheme,

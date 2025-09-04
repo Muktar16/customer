@@ -1,4 +1,6 @@
+import 'package:customer/utils/constants/colors.dart';
 import 'package:flutter/material.dart';
+
 
 /// Custom Class for Light & Dark Text Themes
 class TCheckboxTheme {
@@ -9,14 +11,14 @@ class TCheckboxTheme {
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(4)),
     checkColor: WidgetStateProperty.resolveWith((states) {
       if (states.contains(WidgetState.selected)) {
-        return Colors.white;
+        return TColors.textWhite;
       } else {
-        return Colors.black;
+        return TColors.textPrimary;
       }
     }),
     fillColor: WidgetStateProperty.resolveWith((states) {
       if (states.contains(WidgetState.selected)) {
-        return Colors.blue;
+        return TColors.buttonPrimary;
       } else {
         return Colors.transparent;
       }
@@ -28,14 +30,14 @@ class TCheckboxTheme {
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(4)),
     checkColor: WidgetStateProperty.resolveWith((states) {
       if (states.contains(WidgetState.selected)) {
-        return Colors.white;
+        return TColors.textWhite;
       } else {
-        return Colors.black;
+        return TColors.textPrimary;
       }
     }),
     fillColor: WidgetStateProperty.resolveWith((states) {
       if (states.contains(WidgetState.selected)) {
-        return Colors.blue;
+        return TColors.buttonPrimary;
       } else {
         return Colors.transparent;
       }

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:customer/utils/constants/colors.dart';
+
 /// -- Custom Theme for Outlined Buttons
 class TOutlinedButtonTheme {
   // To avoid creating instances of this class
@@ -10,11 +12,11 @@ class TOutlinedButtonTheme {
       OutlinedButtonThemeData(
         style: OutlinedButton.styleFrom(
           elevation: 0,
-          foregroundColor: Colors.black,
-          side: const BorderSide(color: Colors.blue),
+          foregroundColor: TColors.textPrimary,
+          side: const BorderSide(color: TColors.buttonPrimary),
           textStyle: const TextStyle(
             fontSize: 16,
-            color: Colors.black,
+            color: TColors.textPrimary,
             fontWeight: FontWeight.w600,
           ),
           padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 20),
@@ -29,11 +31,11 @@ class TOutlinedButtonTheme {
       OutlinedButtonThemeData(
         style: OutlinedButton.styleFrom(
           elevation: 0,
-          foregroundColor: Colors.white,
-          side: const BorderSide(color: Colors.blueAccent),
+          foregroundColor: TColors.textWhite,
+          side: const BorderSide(color: TColors.buttonPrimary),
           textStyle: const TextStyle(
             fontSize: 16,
-            color: Colors.white,
+            color: TColors.textWhite,
             fontWeight: FontWeight.w600,
           ),
           padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 20),
